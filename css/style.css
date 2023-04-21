@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+
+
+body{
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+#box-container {
+    height: 500px;
+    display: flex;
+  }
+
+.logo{
+    margin: auto;
+    position: absolute;
+    width: 111.17px;
+    height: 27.68px;
+    left: 165.79px;
+    top: 38.75px;
+   
+}
+
+.logo img{
+    width: 80px;
+}
+
+.top-left{
+    background-color: aliceblue;
+    width: 50%;
+}
+
+.top-right{
+    width: 50%;
+    background-color: aqua;
+}
+
+.top-btn{
+    position: absolute;
+    width: 100px;
+    left: 1108px;
+    top: 24px;
+    background-color: #13183F;
+    border-radius: 28px;
+    text-align:center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-family:'Plus Jakarta Sans';
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.maxskill-title{
+    position: absolute;
+    height: 143px;
+    left: 165.79px;
+    top: 160px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+}
+
+.maxskill-details{
+    position: absolute;
+    height: 84px;
+    left: 165.79px;
+    top: 320px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+}
+
+.maxskill-btn{
+    position: absolute;
+    width: 100px;
+    left: 165.79px;
+    top: 430px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    font-family:'Plus Jakarta Sans';
+    font-size: 15px;
+    line-height: 28px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align:center;
+}
+
+.backdrop-img{
+    position: absolute;
+    width: 656.63px;
+    height: 590.92px;
+    left: 710px;
+}
+
+#service-container{
+    position: absolute;
+    width: 1440px;
+    height: 888px;
+    left: 0px;
+    top: 837px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+.service-inner-area{
+    position: absolute;
+    width: 1110px;
+    height: 748px;
+    left: 165px;
+    top: 837px;
+}
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 1725px;
+    background: #13183F;
+}
+
+.footer-logo{
+    width: 111.17px;
+    height: 27.68px;
+    margin-left: 165.79px;
+}
