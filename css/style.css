@@ -97,9 +97,10 @@ body{
     position: absolute;
     width: 656.63px;
     height: 590.92px;
-    left: 710px;
+    align: left;
+    /* left: 710px;*/
 }
-
+ 
 #service-container{
     position: absolute;
     width: 1440px;
