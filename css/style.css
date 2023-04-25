@@ -51,6 +51,11 @@ body{
     line-height: 28px;
 }
 
+.top-btn:hover{
+    background: #666CA3;
+    border-radius: 28px;
+}
+
 .maxskill-title{
     position: absolute;
     height: 143px;
@@ -92,6 +97,12 @@ body{
     text-align:center;
 }
 
+.maxskill-btn:hover{
+
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 31.5px;
+}
+
 .backdrop-img{
     
     width: 700.63px;
@@ -101,26 +112,28 @@ body{
 
 .service-container{
     width: 100%;
-    height: 888px;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
-    margin-top: 260px;
+    margin-top: 360px;
     
 }
 
 .service-inner{
-    margin: 165px 165px 165px 165px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+
 }
 
 .services{
-    float: left;
+    flex: 1 350px;
     height: 322px;
-    width: 350px;
     left: 0px;
     top: 0px;
     border-radius: 15px;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
     margin-right: 30px;
     position: relative;
+    background: #FFFFFF;
 }
 
 .service-inner div:last-child {
@@ -132,7 +145,6 @@ body{
 }
 
 .initial-service-text{
-    position: absolute;
     height: 120px;
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
@@ -194,21 +206,62 @@ body{
     text-decoration: none;
 }
 
-div .service-inner:last-of-type{
-    margin-top: 165px;
+.service-text-link:hover{
+    color: #FFA7C3;
+}
+
+
+.service-container .service-inner:last-child{
+    margin-top: 80px;
+    padding-bottom: 120px;
 }
 
 
 footer{
-    position: absolute;
+    
     width: 100%;
     height: 120px;
-    left: 0px;
     background: #13183F;
+    display: flex;
 }
 
+.footer-logo-inner{
+    margin-left: 165px;
+    margin-top: 40px;
+    float: left;
+
+}
+
+.footer-btn-inner{
+    margin-right: 165px;
+    margin-top: 40px;
+    float: right;
+
+}
 .footer-logo{
     width: 111.17px;
     height: 27.68px;
-    margin-left: 165.79px;
+}
+
+.footer-btn{
+    position: absolute;
+    right: 180px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    height: 46px;
+    width: 167px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 12px;
+
+
+}
+
+.footer-btn:hover{
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+border-radius: 28px;
 }
