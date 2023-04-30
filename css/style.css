@@ -278,31 +278,9 @@ border-radius: 28px;
 @media screen and (max-device-width:640px){
 
     #box-container {
-        display: flex;
+        display: none;
       }
     
-    .logo{
-        margin: auto;
-        position: absolute;
-        width: 89px;
-        height: 35px;
-        left: 39px;
-        top: 31px;
-       
-    }
-    
-    .logo img{
-        width: 89px;
-    }
-    
-    .top-left{
-        width: 60%;
-    }
-    
-    .top-right{
-        width: 40%;
-        text-align: right;
-    }
     
     
 }
