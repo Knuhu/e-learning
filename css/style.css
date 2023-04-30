@@ -277,8 +277,8 @@ border-radius: 28px;
 /* Devices Type Tablets and Ipads */
 @media screen and (max-width: 768px){
 
-    #box-container {
-        display: none;
+    body {
+        color:aqua;
       }
     
     
