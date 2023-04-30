@@ -275,7 +275,7 @@ border-radius: 28px;
 }
 
 /* Devices Type Tablets and Ipads */
-@media only screen and (max-width: 768px) {
+@media screen and (max-device-width:640px){
 
     #box-container {
         display: flex;
