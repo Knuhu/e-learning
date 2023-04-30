@@ -267,7 +267,7 @@ border-radius: 28px;
 }
 
 /* Devices Type Tablets and Ipads */
-@media (min-width: 481px ) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     #box-container {
         height: 400px;
@@ -277,15 +277,15 @@ border-radius: 28px;
     .logo{
         margin: auto;
         position: absolute;
-        width: 111.17px;
-        height: 27.68px;
+        width: 89px;
+        height: 35px;
         left: 39px;
         top: 31px;
        
     }
     
     .logo img{
-        width: 80px;
+        width: 89px;
     }
     
     .top-left{
@@ -299,7 +299,7 @@ border-radius: 28px;
     
     .top-btn{
         position: absolute;
-        width: 100px;
+        width: 140px;
         right: 220px;
         top: 24px;
         background-color: #13183F;
@@ -319,7 +319,7 @@ border-radius: 28px;
     
     .maxskill-title{
         position: absolute;
-        height: 143px;
+        height: 101px;
         left: 165.79px;
         top: 160px;
         font-family: 'Plus Jakarta Sans';
