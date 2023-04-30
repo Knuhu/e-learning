@@ -274,11 +274,10 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 
 border-radius: 28px;
 }
 
-/* Devices Type Tablets and Ipads 
-@media screen and (max-width: 768px) {
+/* Devices Type Tablets and Ipads */
+@media only screen and (max-width: 768px) {
 
     #box-container {
-        height: 400px;
         display: flex;
       }
     
@@ -297,80 +296,13 @@ border-radius: 28px;
     }
     
     .top-left{
-        width: 50%;
+        width: 60%;
     }
     
     .top-right{
-        width: 50%;
+        width: 40%;
         text-align: right;
     }
-    
-    .top-btn{
-        position: absolute;
-        width: 140px;
-        right: 220px;
-        top: 24px;
-        background-color: #13183F;
-        border-radius: 28px;
-        text-align:center;
-        padding: 10px;
-        color: #FFFFFF;
-        font-family:'Plus Jakarta Sans';
-        font-size: 15px;
-        line-height: 28px;
-    }
-    
-    .top-btn:hover{
-        background: #666CA3;
-        border-radius: 28px;
-    }
-    
-    .maxskill-title{
-        position: absolute;
-        height: 101px;
-        left: 165.79px;
-        top: 160px;
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 56px;
-        line-height: 71px;
-        color: #13183F;
-    }
-    
-    .maxskill-details{
-        position: absolute;
-        height: 84px;
-        left: 165.79px;
-        top: 320px;
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 28px;
-        color: #83869A;
-    }
-    
-    .maxskill-btn{
-        position: absolute;
-        width: 100px;
-        left: 165.79px;
-        top: 430px;
-        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-        border-radius: 31.5px;
-        font-family:'Plus Jakarta Sans';
-        font-size: 15px;
-        line-height: 28px;
-        padding: 10px;
-        color: #FFFFFF;
-        text-align:center;
-    }
-    
-}
-
-/* Devices Type Mobile Phone*/
-@media (min-width: 320px ) and (max-width: 480px) {
-
     
     
 }
