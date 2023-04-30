@@ -275,7 +275,7 @@ border-radius: 28px;
 }
 
 /* Devices Type Tablets and Ipads */
-@media screen and (max-device-width:640px){
+@media screen and (max-width: 768px){
 
     #box-container {
         display: none;
