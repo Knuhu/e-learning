@@ -8,11 +8,6 @@ body{
 
 }
 
-#box-container {
-    height: 500px;
-    display: flex;
-  }
-
  .container {
     height: 500px;
     display: flex;
@@ -34,17 +29,17 @@ body{
 }
 
 
-.maxskill,
-.max-image{
+.maxskill{
     width: 50%;
 }
 
 
-.top-img{
+.max-image{
     background-image: url(../assets/img-1.png);
     background-position: top right;
     background-repeat: no-repeat;
     height: 791px;
+    width: 50%;
 }
 
 .top-btn{
@@ -66,6 +61,8 @@ body{
     background: #666CA3;
     border-radius: 28px;
 }
+
+
 
 .maxskill-title{
     position: absolute;
@@ -115,12 +112,12 @@ border-radius: 31.5px;
 }
 
 
-.menu a:link{
+.top-btn a{
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.container a:link{
+.maxskill-btn a{
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -151,9 +148,6 @@ border-radius: 31.5px;
     background: #FFFFFF;
 }
 
-.service-inner div:last-child {
-    margin-right: 0px !important;
-}
 
 .initial-service{
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -240,14 +234,13 @@ footer{
     display: flex;
 }
 
-.footer-logo-inner{
+.footer-left{
     margin-left: 165px;
     margin-top: 40px;
-    float: left;
 
 }
 
-.footer-btn-inner{
+.footer-right{
     margin-right: 165px;
     margin-top: 40px;
     float: right;
@@ -276,7 +269,7 @@ footer{
 
 }
 
-.footer-btn a:link{
+.footer-btn a{
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -288,10 +281,266 @@ border-radius: 28px;
 
 /* Smartphones (portrait and landscape) ---------- */
 @media screen and (min-width: 320px) and (max-width: 480px){
-    body{
-        background-color: #F02AA6;
+   
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 800px;
+        margin-bottom: 0px;
     }
 
+    .logo{
+        margin: auto;
+        position: absolute;
+        width: 111.17px;
+        height: 27.68px;
+        left: 16px;
+        top: 16px;
+       
+    }
+
+    .top-btn{
+        position: absolute;
+        width: 100px;
+        right: 16px;
+        top: 16px;
+        background-color: #13183F;
+        border-radius: 28px;
+        text-align:center;
+        padding: 10px;
+        color: #FFFFFF;
+        font-family:'Plus Jakarta Sans';
+        font-size: 15px;
+        line-height: 28px;
+    }
+    
+    .logo img{
+        width: 80px;
+        padding: 16px;
+    }
+
+    
+    
+    .maxskill{
+        width: 100%;
+        flex: 1;
+    }
+
+    .maxskill-title{
+        position: absolute;
+        width: 343px;
+        height: 101px;
+        left: 16px;
+        top: 102px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        color: #13183F;
+    }
+    
+    .maxskill-details{
+        position: absolute;
+        width: 350px;
+        height: 78px;
+        left: 16px;
+        top: 229px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
+        color: #83869A;
+    }
+
+    .maxskill-btn{
+        position: absolute;
+        width: 167px;
+        height: 25px;
+        left: 16px;
+        top: 331px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 31.5px;
+        font-family:'Plus Jakarta Sans';
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+        text-align:center;
+        padding-top: 15px;
+    }
+
+
+    .max-image{
+    background-image: url(../assets/img-2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 301px;
+    left: 24px;
+    width: 100%;
+    flex: 1;
+    margin-top: 0px;
+    padding: 0px;
+    }
+
+
+    .service-container{
+        width: 100%;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+        margin-top: 0px !important;
+    }
+
+    .service-inner{
+        margin-left: 16px;
+        margin-right: 16px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .services{
+        left: 0px;
+        top: 0px;
+        border-radius: 15px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        margin-right: 0px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        position: relative;
+        background: #FFFFFF;
+    }
+
+    .service-icon{
+        position: absolute;
+        width: 56px;
+        height: 56px;
+        top: -20px;
+        left: 20px;
+    }
+
+    .initial-service{
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        height: 120px;
+        flex: 1 120px;
+    }
+    
+    .initial-service-text{
+        height: 120px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;    
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .service-text-holder{
+        width: 286px;
+        height: 78px;
+        margin: 64px  32px 0 32px;
+    }
+
+    .service-text-holder-mobile{
+        position: absolute;
+        top: -30px;
+        width: 286px;
+        height: 64px !important;
+        margin: 0px  29px 0px 28px !important;
+        padding: 0px;
+        
+    }
+
+    .disable-link-break{
+        display: none;
+    }
+    
+    .service-text-header{
+        position: relative;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+        color: #13183F;
+        margin-top: 10px;
+    }
+    
+    .service-text-content{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #83869A;
+    }
+    
+    .link-container{
+        margin-top: 125px;
+        margin-left: 32px;
+        
+    }
+    
+    .service-text-link{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #F74780;
+        text-decoration: none;
+    }
+
+    .service-inner:last-child{
+        margin-top: 0px !important;
+        padding-bottom: 120px;
+    }
+
+
+    footer{
+    
+        width: 375px;
+        height: 120px;
+        background: #13183F;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-left{
+        margin-left: 16px;
+        margin-top: 40px;
+        float: left;
+    }
+    
+    .footer-right{
+        margin-right: 16px;
+        margin-top: 30px;
+    
+    }
+
+    .footer-logo{
+        width: 98px;
+        height: 27.68px;
+    }
+
+    .footer-btn{
+        position: absolute;
+        right: 16px;
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        border-radius: 28px;
+        height: 46px;
+        width: 140px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 12px;
+    
+    
+    }
+    
 
 
 }
