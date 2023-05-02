@@ -588,7 +588,6 @@ border-radius: 28px;
     .maxskill{
         width: 50%;
         left: 40px;
-        margin-top: 40px;
 
     }
 
@@ -597,7 +596,7 @@ border-radius: 28px;
         width: 343px;
         height: 101px;
         left: 40px;
-        top: 102px;
+        top: 152px;
         font-family: 'Plus Jakarta Sans';
         font-style: normal;
         font-weight: 800;
@@ -611,7 +610,7 @@ border-radius: 28px;
         width: 350px;
         height: 78px;
         left: 40px;
-        top: 229px;
+        top: 279px;
         font-family: 'Plus Jakarta Sans';
         font-style: normal;
         font-weight: 500;
@@ -625,7 +624,7 @@ border-radius: 28px;
         width: 167px;
         height: 25px;
         left: 40px;
-        top: 331px;
+        top: 381px;
         background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
         border-radius: 31.5px;
         font-family:'Plus Jakarta Sans';
@@ -649,7 +648,140 @@ border-radius: 28px;
         z-index: 1;
     }
 
+    .service-container{
+        width: 100%;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+        margin-top: 360px;
+        
+    }
+    
+    .service-inner{
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
+    
+    .services{
+        flex: 1 350px;
+        height: 322px;
+        left: 0px;
+        top: 0px;
+        border-radius: 15px;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        margin-right: 30px;
+        position: relative;
+        background: #FFFFFF;
+    }
+    
+    
+    .initial-service{
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+    
+    .initial-service-text{
+        height: 120px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;    
+        line-height: 40px;
+        color: #FFFFFF;
+        margin-left: 32px;
+        margin-top: 64px;
+    }
+    
+    .service-icon{
+        position: absolute;
+        width: 56px;
+        height: 56px;
+        top: -30px;
+        left: 20px;
+    }
+    
+    .service-text-holder{
+    
+        width: 286px;
+        height: 218px;
+        margin: 64px  32px 0 32px;
+    }
+    
+    .service-text-header{
+        position: relative;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+        color: #13183F;
+        margin-top: 10px;
+    }
+    
+    .service-text-content{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #83869A;
+    }
+    
+    .link-container{
+        margin-top: -25px;
+        margin-left: 32px;
+    }
+    
+    .service-text-link{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #F74780;
+        text-decoration: none;
+    }
+    
+    .service-text-link:hover{
+        color: #FFA7C3;
+    }
+    
+    
+    .service-container .service-inner:last-child{
+        margin-top: 80px;
+        padding-bottom: 120px;
+    }
+    
+    
+    footer{
+        
+        width: 100%;
+        height: 120px;
+        background: #13183F;
+        display: flex;
+    }
+    
+    .footer-left{
+        margin-left: 165px;
+        margin-top: 40px;
+    
+    }
+    
+    .footer-right{
+        margin-right: 165px;
+        margin-top: 40px;
+        float: right;
+    
+    }
+    .footer-logo{
+        width: 111.17px;
+        height: 27.68px;
+    }
 
+
+    
+    
 }
 /* Desktops and laptops ---------- */
 @media screen and (min-width: 1224px){
