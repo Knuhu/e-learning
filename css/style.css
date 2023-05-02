@@ -773,7 +773,7 @@ border-radius: 28px;
     }
     
     .footer-right{
-        margin-right: 165px;
+        margin-right: 40px;
         margin-top: 40px;
         float: right;
     
@@ -781,6 +781,24 @@ border-radius: 28px;
     .footer-logo{
         width: 111.17px;
         height: 27.68px;
+    }
+
+    .footer-btn{
+        position: absolute;
+        right: 40px;
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        border-radius: 28px;
+        height: 46px;
+        width: 140px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 12px;
+    
+    
     }
 
 
