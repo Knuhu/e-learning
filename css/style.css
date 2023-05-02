@@ -280,7 +280,7 @@ border-radius: 28px;
 }
 
 /* Smartphones (portrait and landscape) ---------- */
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 425px){
    
     .container {
         width: 100%;
@@ -546,8 +546,109 @@ border-radius: 28px;
 }
 
 /* Tablets, iPads (portrait) ---------- */
-@media screen and (min-width: 768px) {
-   /* styles */
+@media screen and (min-width: 425px) and (max-width: 768px){
+  
+   .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-bottom: 0px;
+    }
+
+    .logo{
+        position: absolute;
+        width: 111.17px;
+        height: 27.68px;
+        left: 40px;
+        top: 16px;
+       
+    }
+
+    .top-btn{
+        position: absolute;
+        width: 100px;
+        right: 40px;
+        top: 16px;
+        background-color: #13183F;
+        border-radius: 28px;
+        text-align:center;
+        padding: 10px;
+        color: #FFFFFF;
+        font-family:'Plus Jakarta Sans';
+        font-size: 15px;
+        line-height: 28px;
+    }
+    
+    .logo img{
+        width: 80px;
+        padding: 16px;
+    }
+
+    .maxskill{
+        width: 50%;
+        left: 40px;
+        margin-top: 40px;
+
+    }
+
+    .maxskill-title{
+        position: absolute;
+        width: 343px;
+        height: 101px;
+        left: 40px;
+        top: 102px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        color: #13183F;
+    }
+    
+    .maxskill-details{
+        position: absolute;
+        width: 350px;
+        height: 78px;
+        left: 40px;
+        top: 229px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
+        color: #83869A;
+    }
+
+    .maxskill-btn{
+        position: absolute;
+        width: 167px;
+        height: 25px;
+        left: 40px;
+        top: 331px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 31.5px;
+        font-family:'Plus Jakarta Sans';
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+        text-align:center;
+        padding-top: 15px;
+    }
+
+
+    .max-image{
+        background-image: url(../assets/img-3.png);
+        background-position: right top 100px;
+        background-repeat: no-repeat;
+        width: 50%;
+        position: absolute;
+        height: 640px;
+        right: 0px;
+        top: -92.13px;
+        z-index: 1;
+    }
+
 
 }
 /* Desktops and laptops ---------- */
